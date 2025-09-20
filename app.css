@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap");
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@theme {
+  --font-headline: "Oswald", sans-serif;
+  --font-display: "Quattrocento", serif;
+}
