@@ -6,6 +6,7 @@
   },
   "imports": {
     "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.13",
+    "tailwindcss": "npm:tailwindcss@^4.1.13",
     "vite": "npm:vite@^7.1.6",
     "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.18"
   },
@@ -30,5 +31,6 @@
     "spaceAround": true,
     "semiColons": false,
     "singleQuote": true
-  }
+  },
+  "nodeModulesDir": "auto"
 }
