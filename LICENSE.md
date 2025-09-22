@@ -1,1 +1,0 @@
-All code in this repository is Copyright 2025 Per A. Peterson, all rights reserved.
