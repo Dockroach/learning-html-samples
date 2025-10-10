@@ -4,21 +4,46 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>HTML Learning Test Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css"
+    />
   </head>
   <body>
-    <header class="px-4 pt-4">
-      <h1>HTML Learning Test Page</h1>
+    <header>
+      <h1>
+        <abbr title="HyperText Markup Language">
+          HTML
+        </abbr>
+        Learning Page
+      </h1>
     </header>
-    <main class="p-6">
+    <main>
       <p>Here is some sample text in a paragraph.</p>
       <p>I want to <a href="#">Link something</a>.</p>
-      <blockquote>Hello World!</blockquote>
+      <figure>
+        <img
+          src="https://d2zp5xs5cp8zlg.cloudfront.net/image-68121-800.jpg" alt="Cute Dog"
+        />
+        <figcaption>What a cute dog!</figcaption>
+      </figure>
+      <figure>
+        <blockquote>Hello World!</blockquote>
+        <figcaption>
+          Bill Gates in
+          <cite>My First Program</cite>,
+          probably
+        </figcaption>
+      </figure>
     </main>
-    <footer class="px-4">
-      <p>You should read this footer.</p>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">Here</a></li>
+          <li><a href="#">Also here</a></li>
+          <li><a href="#">The same place</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

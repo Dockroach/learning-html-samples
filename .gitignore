@@ -7,10 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node related
 node_modules
 dist
 dist-ssr
 *.local
+
+# Deno related
+.deno/
+deno.lock
+
+# Vite related
+dist/
+.vite/
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +31,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
