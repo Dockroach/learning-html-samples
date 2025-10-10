@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+#Deno related
+.deno/
+deno.lock
+
+#Vite related
+dist/
+.vite/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +30,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
